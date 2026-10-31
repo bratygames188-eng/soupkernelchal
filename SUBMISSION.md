@@ -3,7 +3,7 @@
 * **Repository:** https://github.com/bratygames188-eng/soupkernelchal
 * **Final Commit Hash:** `3468b10` 
 * **Final Commit Link:** https://github.com/bratygames188-eng/soupkernelchal/commit/твой_хэш
-* **Public Kaggle Notebook:** сюда_вставь_ссылку_на_свой_kaggle_ноутбук
+* **Public Kaggle Notebook:** https://www.kaggle.com/code/aresplay/team-disconnect
 
 ## Summary
 - Реализованы кастомные ядра и оптимизации в папке `solution/`.
