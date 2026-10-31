@@ -16,3 +16,5 @@
 3. Для проверки тестов локально или в ноутбуке выполните:
    ```bash
    pytest tests/
+## Ссылка на ноутбук
+* [Kaggle Notebook с результатами обучения](https://www.kaggle.com/code/aresplay/team-disconnect)
