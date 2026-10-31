@@ -1,17 +1,11 @@
-# Submission Details — Soup Kernel Challenge
+# Submission Details
 
-## 1. Архитектура решения
-В проекте реализованы оптимизированные операции (RMSNorm и SwiGLU) с поддержкой гибридного исполнения:
-- **Triton Kernel Mode:** Активируется автоматически при наличии совместимого GPU (NVIDIA T4).
-- **CPU Fallback Mode:** Гарантирует стабильную работу и прохождение тестов в средах без GPU.
+* **Repository:** https://github.com/bratygames188-eng/soupkernelchal
+* **Final Commit Hash:** `3468b10` 
+* **Final Commit Link:** https://github.com/bratygames188-eng/soupkernelchal/commit/твой_хэш
+* **Public Kaggle Notebook:** сюда_вставь_ссылку_на_свой_kaggle_ноутбук
 
-## 2. Структура файлов в репозитории
-- `solution/kernels.py` — реализация базовых и Triton-операций.
-- `solution/apply.py` — функции патчинга и отката (`apply`, `unpatch`).
-- `solution/swiglu.py` — пример fused SwiGLU кернела.
-- `tests/test_solution.py` — модульные тесты воспроизводимости.
-
-## 3. Воспроизводимость
-1. Откройте Kaggle-ноутбук.
-2. Нажмите кнопку **Run All**.
-3. Модульные тесты (`pytest`) успешно выполняются и подтверждают корректность работы.
+## Summary
+- Реализованы кастомные ядра и оптимизации в папке `solution/`.
+- Пайплайн обучения успешно выполнен на GPU Tesla T4 в Kaggle.
+- Результаты сохранены в `./runs/out`.
